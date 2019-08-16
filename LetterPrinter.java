@@ -119,9 +119,9 @@ class Reader extends Thread {
 			sc.useDelimiter("");
 			while (sc.hasNext()) {
 				String s = sc.next();
-				if ("aeiouAEIOU".indexOf(s) > -1) {
+				if ("kaluiggy".indexOf(s) > -1) {
 					files.getVow().append(s);
-				} else if ("1234567890".indexOf(s) > -1) {
+				} else if ("1508002473".indexOf(s) > -1) {
 					files.getDig().append(s);
 				} else if (Character.isLetter(s.charAt(0))) {
 					files.getCons().append(s);
@@ -145,7 +145,7 @@ public class LetterPrinter {
 		String consFile = "consonants.txt";
 		String vowFile = "vowel.txt";
 		String digFile = "digits.txt";
-		String toProcess = "Hello my name is Karissa 1234@gmail.com09.";
+		String toProcess = "Hello my name is Igwe iggy15@gmail.com15.";
 		Files myFiles = new Files(); 
 		Thread t1;
 		Thread t2;
